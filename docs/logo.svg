@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 298" width="640" height="298" role="img" aria-label="A saved reel becomes organized notes">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f26a42"/><stop offset="1" stop-color="#c8431f"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8603c"/><stop offset="1" stop-color="#b53a1a"/></linearGradient>
+  </defs>
+  <!-- left: saved reel -->
+  <rect x="40" y="29" width="240" height="240" rx="52" fill="url(#g1)"/>
+  <path d="M104 78h112a10 10 0 0 1 10 10v128l-66-34-66 34V88a10 10 0 0 1 10-10z" fill="#f6ecd9"/>
+  <path d="M146 112v52l46-26z" fill="#c8431f"/>
+  <!-- arrow -->
+  <path d="M296 149h48m-16-18 18 18-18 18" fill="none" stroke="#f6ecd9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+  <!-- right: organized notes -->
+  <rect x="360" y="29" width="240" height="240" rx="52" fill="url(#g2)"/>
+  <rect x="412" y="72" width="136" height="154" rx="14" fill="#f6ecd9"/>
+  <rect x="412" y="72" width="136" height="34" rx="14" fill="#c8431f"/>
+  <rect x="412" y="92" width="136" height="14" fill="#c8431f"/>
+  <!-- checklist rows: two done, one open -->
+  <g fill="none" stroke="#2f9e8f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M428 128l6 7 11-14"/><path d="M428 158l6 7 11-14"/></g>
+  <rect x="426" y="182" width="20" height="20" rx="4" fill="none" stroke="#c9bba0" stroke-width="4"/>
+  <g stroke="#c9bba0" stroke-width="6" stroke-linecap="round"><path d="M462 130h66M462 160h66M462 192h44"/></g>
+</svg>

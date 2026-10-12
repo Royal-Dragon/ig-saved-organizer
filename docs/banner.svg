@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="Scattered saved reels flow through ig-saved and come out as organized notes: tables, checklists and recipes">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#2a3340"/></pattern>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e8603c" stop-opacity="0"/><stop offset=".5" stop-color="#e8603c" stop-opacity=".16"/><stop offset="1" stop-color="#e8603c" stop-opacity="0"/></linearGradient>
+    <g id="reel">
+      <rect width="74" height="118" rx="11" fill="#1a212b" stroke="#303a48" stroke-width="2"/>
+      <path d="M26 44v30l26-15z" fill="#e8603c"/>
+      <path d="M52 8h12v22l-6-4-6 4z" fill="#f6ecd9"/>
+      <rect x="10" y="92" width="40" height="5" rx="2.5" fill="#303a48"/><rect x="10" y="102" width="26" height="5" rx="2.5" fill="#303a48"/>
+    </g>
+    <g id="check"><path d="M0 0l5 5 9-11" fill="none" stroke="#3fb7a6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .lbl { font-size: 13px; letter-spacing: 3px; fill: #7d8896; }
+    .ttl { font-size: 12px; font-weight: 700; fill: #f6ecd9; }
+    .trace { fill: none; stroke: #e8603c; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect width="1280" height="400" fill="#0d1117"/>
+  <rect width="1280" height="400" fill="url(#dots)"/>
+  <rect y="120" width="1280" height="160" fill="url(#glow)"/>
+
+  <!-- LEFT: the pile of saved reels -->
+  <g opacity=".95">
+    <use href="#reel" transform="translate(70 118) rotate(-14 37 59)" opacity=".55"/>
+    <use href="#reel" transform="translate(250 96) rotate(11 37 59)" opacity=".6"/>
+    <use href="#reel" transform="translate(150 70) rotate(-6 37 59)" opacity=".8"/>
+    <use href="#reel" transform="translate(112 196) rotate(9 37 59)" opacity=".75"/>
+    <use href="#reel" transform="translate(222 208) rotate(-12 37 59)" opacity=".9"/>
+    <use href="#reel" transform="translate(300 170) rotate(5 37 59)" opacity="1"/>
+  </g>
+  <text class="mono lbl" x="60" y="378">SAVED, NEVER REVISITED</text>
+
+  <!-- CENTER: circuit traces + the skill chip -->
+  <path class="trace" d="M378 150h40v50h40"/><path class="trace" d="M378 200h80"/><path class="trace" d="M378 250h40v-50h40"/>
+  <path class="trace" d="M822 150h-40v50h-40"/><path class="trace" d="M822 200h-80"/><path class="trace" d="M822 250h-40v-50h-40"/>
+  <g fill="#e8603c"><circle cx="378" cy="150" r="5"/><circle cx="378" cy="200" r="5"/><circle cx="378" cy="250" r="5"/><circle cx="822" cy="150" r="5"/><circle cx="822" cy="200" r="5"/><circle cx="822" cy="250" r="5"/></g>
+  <rect x="458" y="108" width="284" height="184" rx="22" fill="#161c25" stroke="#e8603c" stroke-width="3"/>
+  <rect x="478" y="128" width="244" height="144" rx="14" fill="#0d1117" stroke="#303a48" stroke-width="2"/>
+  <text class="mono" x="600" y="178" text-anchor="middle" font-size="30" font-weight="700" fill="#f6ecd9">/ig-saved</text>
+  <g class="mono" font-size="13" fill="#7d8896" text-anchor="middle">
+    <text x="600" y="206">map  ·  extract  ·  render</text>
+    <text x="600" y="232" fill="#3fb7a6">local · private · yours</text>
+  </g>
+  <g fill="#e8603c"><rect x="500" y="100" width="10" height="10" rx="2"/><rect x="595" y="100" width="10" height="10" rx="2"/><rect x="690" y="100" width="10" height="10" rx="2"/>
+  <rect x="500" y="290" width="10" height="10" rx="2"/><rect x="595" y="290" width="10" height="10" rx="2"/><rect x="690" y="290" width="10" height="10" rx="2"/></g>
+
+  <!-- RIGHT: the organized notes -->
+  <g transform="translate(870 52)">
+    <!-- Watch later: table -->
+    <rect width="168" height="136" rx="12" fill="#161c25" stroke="#303a48" stroke-width="2"/>
+    <rect width="168" height="30" rx="12" fill="#e8603c"/><rect y="18" width="168" height="12" fill="#e8603c"/>
+    <text class="mono ttl" x="14" y="21">Watch Later</text>
+    <g fill="#303a48"><rect x="14" y="46" width="62" height="7" rx="3.5"/><rect x="88" y="46" width="30" height="7" rx="3.5"/><rect x="128" y="46" width="26" height="7" rx="3.5"/>
+    <rect x="14" y="68" width="54" height="7" rx="3.5"/><rect x="88" y="68" width="38" height="7" rx="3.5"/><rect x="128" y="68" width="26" height="7" rx="3.5"/>
+    <rect x="14" y="90" width="70" height="7" rx="3.5"/><rect x="88" y="90" width="26" height="7" rx="3.5"/><rect x="128" y="90" width="26" height="7" rx="3.5"/>
+    <rect x="14" y="112" width="46" height="7" rx="3.5"/><rect x="88" y="112" width="34" height="7" rx="3.5"/><rect x="128" y="112" width="26" height="7" rx="3.5"/></g>
+    <!-- Reading list: checklist -->
+    <g transform="translate(188 0)">
+      <rect width="168" height="136" rx="12" fill="#161c25" stroke="#303a48" stroke-width="2"/>
+      <rect width="168" height="30" rx="12" fill="#e8603c"/><rect y="18" width="168" height="12" fill="#e8603c"/>
+      <text class="mono ttl" x="14" y="21">Reading List</text>
+      <g fill="none" stroke="#7d8896" stroke-width="2"><rect x="14" y="44" width="14" height="14" rx="3"/><rect x="14" y="70" width="14" height="14" rx="3"/><rect x="14" y="96" width="14" height="14" rx="3"/></g>
+      <use href="#check" transform="translate(15 53) scale(.85)"/><use href="#check" transform="translate(15 79) scale(.85)"/>
+      <g fill="#303a48"><rect x="40" y="48" width="92" height="7" rx="3.5"/><rect x="40" y="74" width="74" height="7" rx="3.5"/><rect x="40" y="100" width="100" height="7" rx="3.5"/></g>
+    </g>
+    <!-- Recipes -->
+    <g transform="translate(0 156)">
+      <rect width="168" height="136" rx="12" fill="#161c25" stroke="#303a48" stroke-width="2"/>
+      <rect width="168" height="30" rx="12" fill="#e8603c"/><rect y="18" width="168" height="12" fill="#e8603c"/>
+      <text class="mono ttl" x="14" y="21">Recipes</text>
+      <rect x="14" y="44" width="96" height="9" rx="4.5" fill="#f6ecd9"/>
+      <g fill="#e8603c"><circle cx="19" cy="72" r="3.5"/><circle cx="19" cy="90" r="3.5"/><circle cx="19" cy="108" r="3.5"/></g>
+      <g fill="#303a48"><rect x="30" y="68" width="100" height="7" rx="3.5"/><rect x="30" y="86" width="82" height="7" rx="3.5"/><rect x="30" y="104" width="110" height="7" rx="3.5"/></g>
+    </g>
+    <!-- Project ideas -->
+    <g transform="translate(188 156)">
+      <rect width="168" height="136" rx="12" fill="#161c25" stroke="#303a48" stroke-width="2"/>
+      <rect width="168" height="30" rx="12" fill="#e8603c"/><rect y="18" width="168" height="12" fill="#e8603c"/>
+      <text class="mono ttl" x="14" y="21">Project Ideas</text>
+      <g fill="none" stroke="#7d8896" stroke-width="2"><rect x="14" y="44" width="14" height="14" rx="3"/><rect x="14" y="76" width="14" height="14" rx="3"/></g>
+      <g fill="#f6ecd9"><rect x="40" y="46" width="88" height="8" rx="4"/><rect x="40" y="78" width="70" height="8" rx="4"/></g>
+      <g fill="#303a48"><rect x="40" y="60" width="104" height="6" rx="3"/><rect x="40" y="92" width="96" height="6" rx="3"/><rect x="40" y="108" width="60" height="6" rx="3"/></g>
+    </g>
+  </g>
+  <text class="mono lbl" x="870" y="378">ORGANIZED, SEARCHABLE, YOURS</text>
+</svg>
