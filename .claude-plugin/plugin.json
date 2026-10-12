@@ -1,0 +1,12 @@
+{
+  "name": "ig-saved",
+  "description": "Fetch your saved Instagram reels and organize them into Markdown notes: watch-later tables, reading list, recipes, project ideas, news, health guide and wishlist. Runs locally; optional Whisper transcripts for reels whose content is only in the video.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Royal-Dragon",
+    "url": "https://github.com/Royal-Dragon"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Royal-Dragon/ig-saved-organizer",
+  "keywords": ["instagram", "saved-posts", "obsidian", "notes", "whisper"]
+}

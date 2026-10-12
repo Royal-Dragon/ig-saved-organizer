@@ -1,0 +1,18 @@
+# Personal data must never be committed. The scripts keep all state in $IG_SAVED_HOME (default ~/.ig-saved),
+# outside this repo — these patterns are a second line of defence if someone runs from inside the checkout.
+.env
+*.env
+raw.json
+config.json
+transcripts*.json
+inflight.txt
+extracted/
+work/
+frames/
+out/
+logs/
+*.log
+.venv/
+__pycache__/
+*.pyc
+IG Library/

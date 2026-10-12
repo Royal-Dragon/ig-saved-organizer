@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ig-saved-organizer",
+  "description": "Turn your saved Instagram reels into organized Markdown notes.",
+  "owner": {
+    "name": "Royal-Dragon",
+    "url": "https://github.com/Royal-Dragon"
+  },
+  "plugins": [
+    {
+      "name": "ig-saved",
+      "description": "Fetch saved Instagram reels and organize them into watch-later tables, a reading list, recipes, project ideas, news and a health guide.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
